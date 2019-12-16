@@ -1,0 +1,16 @@
+.index {
+	.at-tab-bar {
+		padding-bottom: 0;
+		.at-tab-bar__item {
+			border-bottom: 4px solid transparent;
+		}
+		.at-tab-bar__item--active {
+			border-bottom: 4px solid currentColor;
+		}
+	}
+	.app-menus {
+		&.swiper-container {
+			height: fit-content;
+		}
+	}
+}
